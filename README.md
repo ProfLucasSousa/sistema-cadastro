@@ -11,7 +11,7 @@ Projeto didático de CRUD em PHP e MySQL. A aplicação reúne cadastro, autenti
 
 ## Estrutura
 
-O código está na pasta `sistema-cadastro/`.
+O código da aplicação está diretamente na raiz do repositório.
 
 - `login.php`, `testLogin.php` e `logout.php`: autenticação.
 - `formulario.php`: cadastro.
@@ -23,11 +23,11 @@ O código está na pasta `sistema-cadastro/`.
 ## Como executar
 
 1. Configure um banco MySQL com a tabela esperada pelo projeto.
-2. Ajuste a conexão em `sistema-cadastro/config.php`.
+2. Ajuste a conexão em `config.php`.
 3. Inicie o servidor:
 
 ```bash
-php -S localhost:8000 -t sistema-cadastro
+php -S localhost:8000
 ```
 
 4. Acesse `http://localhost:8000`.
